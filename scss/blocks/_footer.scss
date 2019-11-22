@@ -1,0 +1,42 @@
+.foot-wrap{
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.phone{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;  
+} 
+
+.footer{
+    background-color: #1b1b1b;
+    padding: 20px 0;
+}
+
+.foot-tel{
+    padding-top: 10px;
+    // justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;  
+     
+}
+
+
+@media (max-width: 699px){
+    .foot-wrap{
+        flex-direction: column;
+            text-align: center;
+    }
+}
+
+@media (max-width: 485px){
+    .foot-tel{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone{
+        margin-top: 20px;
+    }
+}

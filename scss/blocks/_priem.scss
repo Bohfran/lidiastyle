@@ -1,0 +1,32 @@
+.priem{
+    
+    &-title{
+        font-weight: 800;
+        color: #ff6470 !important;
+        border-left: 2px solid #2ec523 !important;
+        padding-left: 17px;
+        margin-bottom: 55px;
+    }
+
+    &-blocks{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &__item{
+            margin: 15px;
+            min-width: 281px;
+        }
+
+        &__item-img{
+            margin-bottom: 15px;
+        }
+        
+    }
+
+}
+
+
+.zak{
+    margin-bottom: 26px;
+}

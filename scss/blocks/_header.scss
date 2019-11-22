@@ -1,0 +1,134 @@
+.header{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    &-bg{
+        position: absolute;
+        width: 100%;
+        opacity: 0,5;
+        z-index: -1;
+        img{
+            width: 100%;
+        }
+    }
+    
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        // flex-wrap: wrap;
+
+
+        &_one{
+            margin-top: 95px;
+            max-width: 50%;
+
+        }
+        &_two{
+            max-width: 50%;
+
+        }
+        
+        &-text{
+            margin-bottom: 37px;
+        }
+        &-text__strong{
+            font-size: 25px;
+            color: #ff6470 !important;
+            margin-bottom: 18px;
+        }
+
+        &-text__small{
+            font-size: 18px;
+        }
+
+        &-logo{
+            margin-bottom: 135px;
+        }
+    }
+
+}
+
+.bg-white{
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0.76) 62%, rgba(255,255,255,0.82) 67%, rgba(255,255,255,1) 100%);
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-whitee{
+    background: linear-gradient(to bottom, rgba(255,255,255,1) -2%,rgba(255,255,255,1) -1%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 1%,rgba(255,255,255,0) 14%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 62%,rgba(255,255,255,0) 73%,rgba(255,255,255,0) 80%,rgba(255,255,255,0) 99%);
+    
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.header-block-none{
+    display: none;
+}
+
+
+@media (max-width: 954px){
+    .header-block_two__img img{
+             width: 65%; 
+             margin-left: 20%;
+             margin-top: 15%;
+    }
+
+    &_one{
+        margin-top: 95px;
+        max-width: 60%;
+
+    }
+    &_two{
+        max-width: 40%;
+
+    }
+}
+
+
+@media (max-width: 836px){
+
+.header-block_one{
+    max-width: 100%;
+    margin: 0 auto;
+}
+    .header-bg img {
+        width: 138%;
+    }
+
+    .header-block-logo{
+        margin-bottom: 0;
+    }
+
+    .header-block-none{
+        display: block;
+        
+    }
+
+
+    .header-block-none {
+        justify-content: center;
+    }
+
+
+    .header-block-none img{
+        width: 100%;
+    }
+
+    .header-block_two{
+        display: none;
+    }
+
+    .button-b{
+        text-align: center;
+    }
+
+    .header-block-text{
+        text-align: center;
+    }
+
+
+}
+
